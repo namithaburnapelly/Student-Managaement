@@ -1,0 +1,16 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+        <th>Student ID</th>
+        <th>Name</th>
+        <th>Phone</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of studentsList">
+            <td>{{student.stuId}}</td>
+            <td>{{student.stuName}}</td>
+            <td>{{student.phone}}</td>
+        </tr>
+    </tbody>
+</table>
